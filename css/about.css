@@ -1,0 +1,51 @@
+header .history h1 {
+    color: #414141;
+    text-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* main */
+main {
+    background-image: url("../images/main_block/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+main .images {
+    background-image: url("../images/about/Altaiskii-koksokhimicheskii-zavod-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+main .text {margin: 5px;}
+
+main .director {
+    display: flex;
+    justify-content: center;
+}
+main .Kotovich img {box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);}
+main .Kotovich p {text-align: center;}
+
+/* rally */
+main .rally {
+    display: flex;
+    justify-content: center;
+}
+main .pict p {text-align: center;}
+
+main .pict img {
+    margin: 5px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+}
+
+
+main .nlmk {
+    display: flex;
+    justify-content: center;
+}
+main .kb5 img {box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);} 
+main .kb5 p {text-align: center;}

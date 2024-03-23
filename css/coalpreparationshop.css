@@ -1,0 +1,41 @@
+main {
+    background-image: url("../images/main_block/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+main .image {
+    background-image: url("../images/preparation/Coal_preparation_shop.jpg");
+    background-position-y: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    margin: 10px 0;
+}
+main .box {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+main h2 {
+    display: flex;
+    justify-content: center;
+}
+main .box .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+main img {
+    width: 250px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.3);
+    
+}
+
+main p {
+    padding: 5px 0;
+}

@@ -1,0 +1,38 @@
+main {
+    background-image: url("../images/main_block/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+ul p {
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.contacts li {
+    font-size: 14px;
+    padding: 3px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.contacts li a {
+    color: #000;
+}
+
+.contacts li a:hover {
+    color: blue;
+}
+
+.list {
+    margin:20px 0;
+    list-style-type: none;
+}
+
+.contacts img {
+    width: 20px;
+    margin-right: 20px;
+}
